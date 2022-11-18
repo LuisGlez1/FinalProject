@@ -190,7 +190,6 @@ section .title::after{
 
 .button .contact{
     display: block;
-    color: black;
     background: #6EDEDC;
     border-radius: 20px;
     width: 100px;
@@ -358,6 +357,27 @@ section .title::after{
 .about .about-content .right span{
     color: #6EDEDC;
 }
+
+.about .about-content .right .button{
+    color: white;
+    background: #1C7D7B;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.about .about-content .right .button a{
+    color: white;
+}
+.about .about-content .right .button:hover{
+    background: none;
+    border: solid 2px #1C7D7B;
+}
+.about .about-content .right .button a:hover{
+    color: #1C7D7B;
+}
+
 
 
 /* services section styling */
