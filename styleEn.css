@@ -378,6 +378,27 @@ section .title::after{
     color: #1C7D7B;
 }
 
+.about .about-content .right .button3{
+    color: white;
+    background: #1C7D7B;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 50%;
+}
+.about .about-content .right .button3 a{
+    color: white;
+}
+.about .about-content .right .button3:hover{
+    background: none;
+    border: solid 2px #1C7D7B;
+}
+.about .about-content .right .button3 a:hover{
+    color: #1C7D7B;
+}
 
 
 /* services section styling */
@@ -901,6 +922,9 @@ footer as{
 }
 
 @media (max-width: 769px){
+    .about .about-content .right .button3{
+        margin: 50px 0px 0px 0px;
+    }
     .about .about-content .right p{
         height: 260px;
     }
